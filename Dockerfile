@@ -12,7 +12,7 @@ RUN pip3 install -U pip
 COPY requirements.txt /requirements.txt
 
 # Installing Requirements
-RUN cd /
+RUN cd /MdiskV2Bot
 RUN pip3 install -U -r requirements.txt
 RUN mkdir /MdiskV2Bot
 WORKDIR /MdiskV2Bot
